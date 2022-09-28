@@ -1,0 +1,58 @@
+/* input box */
+.Select-control {
+    background-color: #333333;
+}
+
+
+/* changes the text color of input box */
+.Select-value-label {
+    color: #659bbc !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
+
+.Select--multi > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: #333333;
+    color: #659bbc;
+ }
+
+
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color: #333333;
+    opacity: .97;
+}
+
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.is-focused:not(.is-open) > .Select-control {
+  border-color: var(--primary);
+  box-shadow: none;
+}
+
+
+
+
+/* this colors the input box text and x  of multi dropdown*/
+.Select--multi .Select-value {
+  color: white;
+}
+
+.k-multiselect-wrap
+
+{
+
+  background-color:#e7eFeF;
+
+}
